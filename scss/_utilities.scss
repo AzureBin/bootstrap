@@ -316,7 +316,7 @@ $utilities: map-merge(
       responsive: true,
       property: margin-right margin-left,
       class: mx,
-      values: map-merge($spacers, (auto: auto))
+      values: map-merge($margin-spacers, (auto: auto))
     ),
     "margin-y": (
       responsive: true,
