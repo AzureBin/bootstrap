@@ -310,13 +310,13 @@ $utilities: map-merge(
       responsive: true,
       property: margin,
       class: m,
-      values: map-merge($spacers, (auto: auto))
+      values: map-merge($margin-spacers, (auto: auto))
     ),
     "margin-x": (
       responsive: true,
       property: margin-right margin-left,
       class: mx,
-      values: map-merge($margin-spacers, (auto: auto))
+      values: map-merge($spacers, (auto: auto))
     ),
     "margin-y": (
       responsive: true,
@@ -328,25 +328,25 @@ $utilities: map-merge(
       responsive: true,
       property: margin-top,
       class: mt,
-      values: map-merge($spacers, (auto: auto))
+      values: map-merge($margin-spacers, (auto: auto))
     ),
     "margin-end": (
       responsive: true,
       property: margin-right,
       class: me,
-      values: map-merge($spacers, (auto: auto))
+      values: map-merge($margin-spacers, (auto: auto))
     ),
     "margin-bottom": (
       responsive: true,
       property: margin-bottom,
       class: mb,
-      values: map-merge($spacers, (auto: auto))
+      values: map-merge($margin-spacers, (auto: auto))
     ),
     "margin-start": (
       responsive: true,
       property: margin-left,
       class: ms,
-      values: map-merge($spacers, (auto: auto))
+      values: map-merge($margin-spacers, (auto: auto))
     ),
     // Negative margin utilities
     "negative-margin": (

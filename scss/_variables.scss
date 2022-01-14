@@ -389,12 +389,9 @@ $spacers-10-12-14-16-18-20: (
   18: 18px,
   20: 20px,
 );
-$spacers-10: (
-  10: 10px,
-);
 
 $padding-spacers: map.merge($spacers, $spacers-10-12-14-16-18-20);
-$margin-spacers:  map.merge($spacers, $spacers-10);
+$margin-spacers:  map.merge($spacers, $spacers-10-12-14-16-18-20);
 
 // scss-docs-end spacer-variables-maps
 
