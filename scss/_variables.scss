@@ -1,3 +1,5 @@
+@use "sass:map";
+
 // Variables
 //
 // Variables should follow the `$component-state-property-size` formula for
@@ -378,6 +380,18 @@ $spacers: (
   4: $spacer * 1.5,
   5: $spacer * 3,
 ) !default;
+
+$spacers-10-12-14-16-18-20: (
+  10: 10px,
+  12: 12px,
+  14: 14px,
+  16: 16px,
+  18: 18px,
+  20: 20px,
+);
+
+$padding-spacers: map.merge($spacers, $spacers-10-12-14-16-18-20);
+
 // scss-docs-end spacer-variables-maps
 
 // Position

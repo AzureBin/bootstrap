@@ -396,13 +396,13 @@ $utilities: map-merge(
       responsive: true,
       property: padding,
       class: p,
-      values: $spacers
+      values: $padding-spacers
     ),
     "padding-x": (
       responsive: true,
       property: padding-right padding-left,
       class: px,
-      values: $spacers
+      values: $padding-spacers
     ),
     "padding-y": (
       responsive: true,
