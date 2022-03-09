@@ -1,5 +1,5 @@
 // Utilities
-
+@use "sass:map";
 $utilities: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $utilities: map-merge(
@@ -444,10 +444,11 @@ $utilities: map-merge(
       values: (monospace: var(--#{$variable-prefix}font-monospace))
     ),
     "font-size": (
+      responsive: true,
       rfs: true,
       property: font-size,
       class: fs,
-      values: $font-sizes
+      values: map.merge($font-sizes-advanced, $font-sizes),
     ),
     "font-style": (
       property: font-style,
